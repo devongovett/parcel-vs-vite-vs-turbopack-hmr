@@ -1,0 +1,18 @@
+{
+  "name": "react-hmr",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "rspack serve",
+    "build": "rspack build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@rspack/cli": "0.0.0-canary-20230303045006"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7"
+  }
+}
